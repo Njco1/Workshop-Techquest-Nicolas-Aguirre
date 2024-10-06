@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="779a6af3-9f85-40a6-a85d-f5c2a13be540" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/dtos/exception/GenericNotFoundExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/dtos/requests/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/dtos/responses/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/generic/CreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/MissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/SkillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/controllers/MissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/controllers/SkillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/ports/service/IMissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/ports/service/ISkillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/utils/PasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/generic/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/generic/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/application/services/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Auditable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Mission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Mission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/enums/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/ports/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/domain/ports/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/helpers/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/helpers/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/persitence/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/persitence/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/persitence/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/security/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/security/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riwi/TechQuest/infrastructure/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/application/services/generic/Create.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/application/services/generic/Create.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/application/services/impl/UserDetailsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Auditable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Auditable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Mission$MissionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Mission$MissionBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Mission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Mission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Skill$SkillBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Skill$SkillBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/enums/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/domain/enums/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/helpers/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/helpers/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/persitence/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/persitence/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/security/JwtFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/security/JwtFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riwi/TechQuest/infrastructure/security/SecurityConfig.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mtvmTpTYYOZykETUPlE8AssUWC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PasswordGenerator.executor": "Run",
+    "JUnit.com.riwi.TechQuest.application.dtos.responses in TechQuest.executor": "Profiler#1",
+    "Maven.TechQuest [clean].executor": "Run",
+    "Maven.TechQuest [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.TechQuestApplication.executor": "Run",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.riwi.TechQuest.application.dtos.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TechQuestApplication">
+    <configuration name="com.riwi.TechQuest.application.dtos.responses in TechQuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TechQuest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riwi.TechQuest.application.dtos.responses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.riwi.TechQuest.application.dtos.responses" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Workshop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Workshop" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechQuestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="TechQuest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.riwi.TechQuest.TechQuestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.riwi.TechQuest.application.dtos.responses in TechQuest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="779a6af3-9f85-40a6-a85d-f5c2a13be540" name="Changes" comment="" />
+      <created>1727908849926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727908849926</updated>
+      <workItem from="1727908851629" duration="4442000" />
+      <workItem from="1727914539044" duration="1560000" />
+      <workItem from="1727916126905" duration="14233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
